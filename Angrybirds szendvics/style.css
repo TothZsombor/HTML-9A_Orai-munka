@@ -1,0 +1,43 @@
+body {
+    background-image: url(hatter.png);
+    background-size: contain;
+}
+
+table {
+    border: 3px solid blue;
+    border-collapse: collapse;
+
+}
+
+.kep {
+    width: 40%;
+    margin-left: 30%;
+    
+}
+
+span {
+    color: blue;
+    font-style: italic;
+
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+td {
+    border: 1px solid blue;
+    text-align: center;
+    padding: 10px 15px;
+    background-color: #ddd;
+}
+
+.piros {
+    color: red;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+

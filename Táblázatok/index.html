@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Táblázatok</title>
+    <style>
+        td, th, #valami, .akarmi {
+            border: 1px solid black;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        .piros {
+            border: 2px solid brown;
+            background-color: red;
+            color: white;
+        }
+        .kék {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>1. oszl.</th>
+            <th>2. oszl.</th>
+            <th colspan="2">3. oszl.</th>
+        </tr>
+        <tr>
+            <td colspan="2">Egy.1</td>
+            <td>Egy.2</td>
+            <td>Egy.3</td>
+
+        </tr>
+        <tr>
+            <td>Kettő.1</td>
+            <td>Kettő.2</td>
+            <td colspan="2">Kettő.3</td>
+        </tr>
+       <tr class="piros">
+            <td>Három.1</td>
+            <td>Három.2</td>
+            <td colspan="2">Három pont három</td>
+        </tr>
+        <tr>
+            <td>Négy.1</td>
+            <td rowspan="2" class="kék">Négy.2</td>
+            <td>Négy.3</td>
+            <td rowspan="2">Négy.4</td>
+        </tr>
+        <tr>
+            <td>Öt.1</td>
+            <td>Öt.2</td>
+        </tr>
+
+    </table>
+
+
+
+</body>
+</html>
