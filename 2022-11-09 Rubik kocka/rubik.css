@@ -38,3 +38,21 @@ p{
 li{
   font-weight:bold;
 }
+.link a {
+  color: #443502;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover, h2:hover {
+  color: blue;
+}
+
+a:active {
+  color: green;
+}
+
+
